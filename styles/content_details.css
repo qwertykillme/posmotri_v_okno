@@ -60,6 +60,7 @@
 .content__video-card-thumbnail {
   width: 50%;
   object-fit: contain;
+  object-position: center;
 }
 
 .content__card-link {
