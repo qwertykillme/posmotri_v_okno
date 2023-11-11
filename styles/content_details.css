@@ -17,6 +17,7 @@
 
 .content__list {
   position: relative;
+  bottom: 10px;
   width: 394px;
   height: 298px;
   overflow: hidden auto;
@@ -37,8 +38,7 @@
 
 .content__video-card-title {
   width: 100%;
-  margin-left: 5px;
-  margin-bottom: 6px;
+  margin-left: 3px;
   text-transform: uppercase;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -50,7 +50,7 @@
 }
 
 .content__video-card-description {
-  margin-left: 5px;
+  margin-left: 3px;
   color: #fff;
   font-family: "Fira Sans Condensed", "Roboto", "Arial", sans-serif;
   font-size: 18px;
