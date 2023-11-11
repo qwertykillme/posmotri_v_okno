@@ -1,5 +1,5 @@
 .content__details {
-  width: 400px;
+  width: 394px;
 }
 
 .title {
@@ -17,8 +17,9 @@
 
 .content__list {
   position: relative;
+  width: 394px;
   height: 298px;
-  overflow: auto;
+  overflow: hidden auto;
 }
 
 .content__list-item {
@@ -27,7 +28,7 @@
 
 .content__video-card {
   display: flex;
-  max-width: 400px;
+  max-width: 394px;
 }
 
 .content__video-card-description-container {
@@ -35,7 +36,7 @@
 }
 
 .content__video-card-title {
-  max-width: 100%;
+  width: 100%;
   margin-left: 5px;
   margin-bottom: 6px;
   text-transform: uppercase;
@@ -70,5 +71,5 @@
 .more-button {
   margin: 0 5px 5px 5px;
   min-height: 34px;
-  width: 100%;
+  width: 97%;
 }

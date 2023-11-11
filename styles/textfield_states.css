@@ -3,7 +3,8 @@
 }
 
 .search-form__textfield:active {
-  border: 1px solid white;
+  border: none;
+  outline: 0.5px solid white;
 }
 
 .search-form__textfield:focus {
@@ -11,15 +12,15 @@
 }
 
 .search-form__textfield:focus-visible {
-  outline: 1px solid white;
-  outline-offset: 2px;
+  border: none;
+  outline: 0.5px solid white;
 }
 
 .search-form__textfield:not(:placeholder-shown) {
   background-color: transparent;
 }
 
-.search-form__fieldset:hover .search-form__label-text {
+.search-form__label-text:hover {
   text-decoration: underline 1px white;
   text-underline-offset: 4px;
 }

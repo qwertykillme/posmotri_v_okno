@@ -4,10 +4,10 @@
 
 .result__video-container {
   position: relative;
-  bottom: 10px;
   max-width: 711px;
   height: 386px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  /* bottom: 20px; */
   cursor: pointer;
 }
 .result__video {
@@ -18,8 +18,10 @@
 }
 
 .search-form {
+  margin-bottom: 5px;
   display: flex;
   justify-content: space-between;
+  align-items: start;
   gap: 40px;
 }
 
@@ -28,6 +30,7 @@
 }
 
 .search-form__fieldset-title {
+  margin-bottom: 5px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -57,7 +60,6 @@
 }
 
 .search-form__textfield {
-  margin-top: 2px;
   width: 225px;
   appearance: none;
   border: none;
