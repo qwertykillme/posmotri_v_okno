@@ -1,0 +1,14 @@
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Fira Sans Condensed";
+}
+
+input[type="checkbox"]:checked + span::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  background-color: white;
+  border: 1px solid white;
+}

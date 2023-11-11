@@ -1,0 +1,13 @@
+.search-form__label:hover .search-form__textfield {
+  text-decoration: underline 1px solid;
+  text-underline-offset: 2px;
+}
+
+.search-form__label:not(:last-child) {
+  margin-right: 16px;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
