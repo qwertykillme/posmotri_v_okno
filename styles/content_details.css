@@ -1,11 +1,10 @@
 .content__details {
   width: 400px;
-  height: 534px;
 }
 
 .title {
   margin-bottom: 28px;
-  font-family: "Oswald";
+  font-family: "Oswald", "Roboto", "Arial", sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -44,7 +43,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   color: #fff;
-  font-family: "Oswald";
+  font-family: "Oswald", "Roboto", "Arial", sans-serif;
   font-size: 30px;
   font-weight: 700;
 }
@@ -52,7 +51,7 @@
 .content__video-card-description {
   margin-left: 5px;
   color: #fff;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", "Roboto", "Arial", sans-serif;
   font-size: 18px;
   line-height: 16.2px;
 }
@@ -70,6 +69,6 @@
 
 .more-button {
   margin: 0 5px 5px 5px;
-  max-height: 34px;
+  min-height: 34px;
   width: 100%;
 }

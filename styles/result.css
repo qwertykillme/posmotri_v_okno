@@ -1,6 +1,5 @@
 .result {
   max-width: 711px;
-  max-height: 456px;
 }
 
 .result__video-container {
@@ -25,7 +24,6 @@
 }
 
 .search-form__fieldset {
-  width: 225px;
   border: none;
 }
 
@@ -36,7 +34,6 @@
 
 .search-form__label {
   width: fit-content;
-  height: 27px;
   cursor: pointer;
 }
 
@@ -61,7 +58,7 @@
 
 .search-form__textfield {
   margin-top: 2px;
-  width: 100%;
+  width: 225px;
   appearance: none;
   border: none;
   border-top: 1px solid #fff;
@@ -81,7 +78,7 @@
   background: transparent;
   font-size: 18px;
   font-weight: 700;
-  font-family: "Fira Sans Condensed";
+  font-family: inherit;
   cursor: pointer;
 }
 
@@ -89,9 +86,4 @@
   margin-top: 20px;
   width: 194px;
   height: 34px;
-}
-
-.content_details {
-  max-width: 300px;
-  max-height: 534px;
 }

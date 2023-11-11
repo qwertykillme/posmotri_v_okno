@@ -22,5 +22,4 @@
 .search-form__fieldset:hover .search-form__label-text {
   text-decoration: underline 1px white;
   text-underline-offset: 4px;
-  /* border-bottom: 1px solid white;  */
 }

@@ -1,6 +1,6 @@
-input::placeholder {
+.search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", "Roboto", "Arial", sans-serif;
 }
 
 input[type="checkbox"]:checked + span::after {
