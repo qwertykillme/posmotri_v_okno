@@ -137,7 +137,6 @@ ol {
   height: 34px;
 }
 
-
 .button {
   appearance: none;
   padding: 6px 0;
@@ -150,8 +149,6 @@ ol {
   font-family: inherit;
   cursor: pointer;
 }
-
-
 
 /* правый блок */
 
@@ -267,10 +264,17 @@ ol {
   outline-offset: 2px;
 }
 
+/* 
+
+я добавила focus-visible лейблу, но на случай, если вам нужен был именно для 
+самого инпута, прилагаю:
+
 .search-form__textfield:focus-visible {
-  border: none;
-  outline: 0.5px solid white;
-}
+  border-top: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+  outline: none;
+
+} */
 
 .search-form__textfield:not(:placeholder-shown) {
   background-color: transparent;
@@ -279,6 +283,13 @@ ol {
 .search-form__label-text:hover {
   text-decoration: underline 1px white;
   text-underline-offset: 4px;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 2px;
+
+  /* см строку 269 */
 }
 
 input[type="checkbox"]:checked + span::after {
