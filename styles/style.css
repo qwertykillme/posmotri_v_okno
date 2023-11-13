@@ -104,10 +104,6 @@ ol {
   display: flex;
 }
 
-.search-form__label {
-  cursor: pointer;
-}
-
 .search-form__pseudo-checkbox {
   display: inline-block;
   vertical-align: middle;
@@ -243,6 +239,11 @@ ol {
   outline-offset: 1px;
 }
 
+.search-form__label-text:hover {
+  text-decoration: underline 1px white;
+  text-underline-offset: 4px;
+}
+
 .search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
   font-family: "Fira Sans Condensed", "Roboto", "Arial", sans-serif;
@@ -252,44 +253,20 @@ ol {
   cursor: text;
 }
 
+.search-form__textfield:focus {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
+
 .search-form__textfield:active {
   border: none;
-  outline: 0.5px solid white;
-}
-
-.search-form__textfield:focus {
-  border-top: 0.5px solid white;
-  border-bottom: 0.5px solid white;
   outline: 1px solid white;
-  outline-offset: 2px;
 }
-
-/* 
-
-я добавила focus-visible лейблу, но на случай, если вам нужен был именно для 
-самого инпута, прилагаю:
-
-.search-form__textfield:focus-visible {
-  border-top: 0.5px solid white;
-  border-bottom: 0.5px solid white;
-  outline: none;
-
-} */
 
 .search-form__textfield:not(:placeholder-shown) {
   background-color: transparent;
-}
-
-.search-form__label-text:hover {
-  text-decoration: underline 1px white;
-  text-underline-offset: 4px;
-}
-
-.search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;
-  outline-offset: 2px;
-
-  /* см строку 269 */
 }
 
 input[type="checkbox"]:checked + span::after {
